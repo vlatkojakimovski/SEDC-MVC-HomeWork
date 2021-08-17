@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jakimovski\\Desktop\\Programming Staff\\SEAVUS Academu .NET Developer\\MVC\\MVC HomeWork\\Class 03 - HomeWork\\SEDC.PizzaApp\\SEDC.PizzaApp.Web\\SEDC.PizzaApp.Web.csproj": {}
+    "C:\\Users\\Jakimovski\\Desktop\\Programming Staff\\SEAVUS Academu .NET Developer\\MVC\\SEDC MVC HomeWork\\SEDC-MVC-HomeWork\\Class 03 - HomeWork\\SEDC.PizzaApp\\SEDC.PizzaApp.Web\\SEDC.PizzaApp.Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jakimovski\\Desktop\\Programming Staff\\SEAVUS Academu .NET Developer\\MVC\\MVC HomeWork\\Class 03 - HomeWork\\SEDC.PizzaApp\\SEDC.PizzaApp.Web\\SEDC.PizzaApp.Web.csproj": {
+    "C:\\Users\\Jakimovski\\Desktop\\Programming Staff\\SEAVUS Academu .NET Developer\\MVC\\SEDC MVC HomeWork\\SEDC-MVC-HomeWork\\Class 03 - HomeWork\\SEDC.PizzaApp\\SEDC.PizzaApp.Web\\SEDC.PizzaApp.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jakimovski\\Desktop\\Programming Staff\\SEAVUS Academu .NET Developer\\MVC\\MVC HomeWork\\Class 03 - HomeWork\\SEDC.PizzaApp\\SEDC.PizzaApp.Web\\SEDC.PizzaApp.Web.csproj",
+        "projectUniqueName": "C:\\Users\\Jakimovski\\Desktop\\Programming Staff\\SEAVUS Academu .NET Developer\\MVC\\SEDC MVC HomeWork\\SEDC-MVC-HomeWork\\Class 03 - HomeWork\\SEDC.PizzaApp\\SEDC.PizzaApp.Web\\SEDC.PizzaApp.Web.csproj",
         "projectName": "SEDC.PizzaApp.Web",
-        "projectPath": "C:\\Users\\Jakimovski\\Desktop\\Programming Staff\\SEAVUS Academu .NET Developer\\MVC\\MVC HomeWork\\Class 03 - HomeWork\\SEDC.PizzaApp\\SEDC.PizzaApp.Web\\SEDC.PizzaApp.Web.csproj",
+        "projectPath": "C:\\Users\\Jakimovski\\Desktop\\Programming Staff\\SEAVUS Academu .NET Developer\\MVC\\SEDC MVC HomeWork\\SEDC-MVC-HomeWork\\Class 03 - HomeWork\\SEDC.PizzaApp\\SEDC.PizzaApp.Web\\SEDC.PizzaApp.Web.csproj",
         "packagesPath": "C:\\Users\\Jakimovski\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jakimovski\\Desktop\\Programming Staff\\SEAVUS Academu .NET Developer\\MVC\\MVC HomeWork\\Class 03 - HomeWork\\SEDC.PizzaApp\\SEDC.PizzaApp.Web\\obj\\",
+        "outputPath": "C:\\Users\\Jakimovski\\Desktop\\Programming Staff\\SEAVUS Academu .NET Developer\\MVC\\SEDC MVC HomeWork\\SEDC-MVC-HomeWork\\Class 03 - HomeWork\\SEDC.PizzaApp\\SEDC.PizzaApp.Web\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Jakimovski\\AppData\\Roaming\\NuGet\\NuGet.Config",

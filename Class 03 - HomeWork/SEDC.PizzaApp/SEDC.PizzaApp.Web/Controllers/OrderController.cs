@@ -49,7 +49,7 @@ namespace SEDC.PizzaApp.Web.Controllers
 
             return View(orderDetails);
         }
-        public IActionResult OrderDetails (int id)
+        public IActionResult OrderDetails(int id)
         {
             if (id > 0)
             {

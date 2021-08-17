@@ -1,0 +1,16 @@
+﻿<h2 class="text-body">@ViewData["Title"]</h2>
+
+
+
+
+
+<div class="row container ">
+
+    <div class="col-md-1 border text-left border-info">Name: </div>
+    <div class="col-md-11 text-left border"> @ViewBag.Pizza.Id @ViewBag.Pizza.Name</div>
+    <div class="col-md-1 border text-left border-info">Size: </div>
+    <div class="col-md-11 text-left border"> @ViewBag.Pizza.PizzaSize</div>
+    <div class="col-md-1 border text-left border-info">Price: </div>
+    <div class="col-md-11 text-left border"> $@ViewBag.Pizza.Price</div>
+
+</div>
