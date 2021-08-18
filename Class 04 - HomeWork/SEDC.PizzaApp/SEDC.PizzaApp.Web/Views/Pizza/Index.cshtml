@@ -1,4 +1,10 @@
-﻿@{
+﻿@model List<SEDC.PizzaApp.Web.Models.ViewModels.PizzaViewModel>
+
+
+
+<partial name="~/Views/Shared/Partial/_PizzaPartialView.cshtml" />
+
+@*@{
     ViewBag.Title = "Pizza";
     Layout = "~/Views/Shared/_SecondLayout.cshtml";
 }
@@ -13,31 +19,49 @@
         else
         {
             <h4> "NO promotion!!" </h4>
-            }
         }
+    }
 
 
-        <div class="col-md-4">
-            <p class="text-center">
-                @ViewData["Title"]
-            </p>
-            <p class="text-center">
-                @ViewData["NumberOfApp"]
-            </p>
-            <p class="text-center">
-                @ViewData["Pizza"]
-            </p>
-            <p class="text-center">
-                @ViewBag.Name
-            </p>
-            <p class="text-center">
-                @ViewBag.NumberOfPizzas
-            </p>
-            <p class="text-center">
-                @ViewBag.Pizza
-            </p>
-            <p class="text-center">
-                @ViewBag.Pizza.IsOnPromotion
-            </p>
-        </div>
+    <div class="col-md-4">
+        <p class="text-center">
+            @ViewData["Title"]
+        </p>
+        <p class="text-center">
+            @ViewData["NumberOfApp"]
+        </p>
+        <p class="text-center">
+            @ViewData["Pizza"]
+        </p>
+        <p class="text-center">
+            @ViewBag.Name
+        </p>
+        <p class="text-center">
+            @ViewBag.NumberOfPizzas
+        </p>
+        <p class="text-center">
+            @ViewBag.Pizza
+        </p>
+        <p class="text-center">
+            @ViewBag.Pizza.IsOnPromotion
+        </p>
     </div>
+
+    @foreach (var item in Model)
+    {
+        <div class="row container font-weight-bold ">
+
+            <div class="col-md-12 border text-left border-info text-left"> @item.Id</div>
+
+            <div class="col-md-1 border text-left border-info">Name: </div>
+            <div class="col-md-11 text-left border"> @item.Id @item.Name</div>
+            <div class="col-md-1 border text-left border-info">Size: </div>
+            <div class="col-md-11 text-left border"> @item.PizzaSize</div>
+            <div class="col-md-1 border text-left border-info">Price: </div>
+            <div class="col-md-11 text-left border"> $@item.Price</div>
+
+
+        </div>
+    }
+
+</div>*@
